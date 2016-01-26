@@ -1,0 +1,49 @@
+body {
+    background-image: url('../img/totem.jpg?a');
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.circle {
+    position: absolute;
+    right: 38%;
+    top: 100px;
+    
+}
+
+.vtr {
+    position: absolute;
+    width: 200px;
+    left: calc(50% - 100px);
+    top: calc(50% - 200px);
+}
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+.btn-circle.btn-xl {
+  width: 70px !important;
+  height: 70px !important;
+  font-size: 24px !important;
+  line-height: 1.33 !important;
+  border-radius: 35px !important;
+}
+
+
+.circle :hover{
+    color: #e3e3e4;
+    
+}
