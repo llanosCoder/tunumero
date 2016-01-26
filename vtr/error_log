@@ -1,0 +1,1 @@
+[30-Oct-2015 12:59:32 America/Argentina/Buenos_Aires] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/imasdgroup/public_html/ws/vtr/atencion.model.php on line 210
