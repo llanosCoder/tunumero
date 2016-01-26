@@ -1,0 +1,16 @@
+.round-pic {
+	width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -khtml-border-radius: 100px;
+    overflow: hidden;
+	position: relative;
+	left: 50%;
+	margin-left: -100px;
+}
+
+.btn_volver {
+	margin-right: 20px;
+}

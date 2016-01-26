@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ejecutivos</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="description" content="Outline Admin Theme">
+    <meta name="author" content="Jaime Llanos">
+
+    <link type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600' rel='stylesheet'>
+
+    <link type="text/css" href="assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link type="text/css" href="assets/fonts/themify-icons/themify-icons.css" rel="stylesheet">
+    <!-- Themify Icons -->
+    <link type="text/css" href="assets/fonts/weather-icons/css/weather-icons.min.css" rel="stylesheet">
+    <!-- Weather Icons -->
+
+    <link rel="stylesheet" href="assets/css/styles-alternative.css" id="theme">
+    <!-- Default CSS: Altenate Style -->
+    <link rel="prefetch alternate stylesheet" href="assets/css/styles.css">
+    <!-- Prefetched Secondary Style -->
+
+    <link type="text/css" href="assets/plugins/codeprettifier/prettify.css" rel="stylesheet">
+    <!-- Code Prettifier -->
+    <link type="text/css" href="assets/plugins/iCheck/skins/minimal/blue.css" rel="stylesheet">
+    <!-- iCheck -->
+
+    <!--[if lt IE 10]>
+        <script type="text/javascript" src="assets/js/media.match.min.js"></script>
+        <script type="text/javascript" src="assets/js/respond.min.js"></script>
+        <script type="text/javascript" src="assets/js/placeholder.min.js"></script>
+    <![endif]-->
+    <!-- The following CSS are included as plugins and can be removed if unused-->
+
+    <link type="text/css" href="assets/plugins/fullcalendar/fullcalendar.css" rel="stylesheet">
+    <!-- FullCalendar -->
+    <link type="text/css" href="assets/plugins/jvectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet">
+    <!-- jVectorMap -->
+    <link type="text/css" href="assets/plugins/switchery/switchery.css" rel="stylesheet">
+    <!-- Switchery -->
+
+    <link type="text/css" href="assets/plugins/charts-chartistjs/chartist.min.css" rel="stylesheet">
+    <!-- Chartist -->
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.9/css/jquery.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/1.0.7/css/responsive.dataTables.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets/js/DataTables-1.10.9/css/dataTables.bootstrap.min.css" />
+    <!--Datatables-->
+    <link href="assets/notifications/notification.css" rel="stylesheet" />
+    <!--Notificacion-->
+    <link rel="stylesheet" type="text/css" href="assets/js/jquery.niftymodals/css/component.css" />
+    <!--Nifty Modals-->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+</head>
+
+<body class="animated-content">
+
+    <header id="topnav" class="navbar navbar-bluegray navbar-fixed-top">
+    </header>
+
+    <div id="wrapper">
+        <div id="layout-static">
+            <div class="static-sidebar-wrapper sidebar-bluegray">
+
+            </div>
+            <div class="static-content-wrapper">
+                <div class="static-content">
+                    <div class="page-content">
+                        <ol class="breadcrumb">
+
+                            <li class=""><a href="#">Inicio</a></li>
+
+                        </ol>
+                        <div class="page-heading">
+                            <div>
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="panel panel-default demo-new-members" data-widget='{"collapse": "true"}'>
+                                                <div class="panel-heading">
+                                                    <h2>Clientes en espera</h2>
+                                                    <div class="panel-ctrls button-icon-bg" data-actions-container="" data-action-collapse='{"target": ".panel-body"}' data-action-refresh-demo='{"type": "circular"}'>
+                                                    </div>
+                                                </div>
+                                                <div class="panel-editbox" data-widget-controls=""></div>
+                                                <div class="panel-body panel-no-padding">
+                                                    <div class="table-responsive" id="tabla_clientes-wrapper">
+
+                                                    </div>
+
+                                                </div>
+                                                <div class="panel-footer">
+                                                    <!--ul class="pagination m-n pull-right">
+                                                        <li class="disabled"><a href="index.html#"><i class="ti ti-angle-left"></i></a></li>
+                                                        <li><a href="index.html#">1</a></li>
+                                                        <li><a href="index.html#">2</a></li>
+                                                        <li class="active"><a href="index.html#">3</a></li>
+                                                        <li><a href="index.html#">4</a></li>
+                                                        <li><a href="index.html#">5</a></li>
+                                                        <li><a href="index.html#"><i class="ti ti-angle-right"></i></a></li>
+                                                    </ul-->
+
+                                                    <!--a href="index.html#" class="btn btn-info pull-left"><i class="ti ti-pencil"></i> <span class="hidden-xs">Add Account</span></a-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- .container-fluid -->
+                            </div>
+                            <!-- #page-content -->
+                        </div>
+                        <footer>
+                            <div class="clearfix">
+                                <ul class="list-unstyled list-inline pull-left">
+                                    <li>
+                                        <h6 style="margin: 0;">&copy; 2015 Imasd Group</h6>
+                                    </li>
+                                </ul>
+                                <button class="pull-right btn btn-link btn-xs hidden-print" id="back-to-top"><i class="ti ti-arrow-up"></i></button>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+
+            <div class="md-modal md-effect-1" id="modal_cliente">
+                <div class="md-content" style="background-color: #ffffff; color: #555;">
+                    <div class="modal-header">
+                        <div class="modal-title">
+                            <h3 class="modal_cliente_nombre">Cliente</h3>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <img class="modal_cliente_foto round-pic img-responsive text-center" src="src/foto.png" />
+                        <br>
+                        <span style="font-weight:bold;">RUT:</span>
+                        <span class="modal_cliente_rut"></span>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="md-close btn btn-flat btn-primary btn_terminar_atencion" data-modal="modal_cerrar_atencion">Terminar atención</button>
+                        <!--button class="md-close btn-flat btn btn-danger btn_atencion" est="6">Cancelar</button>
+                        <!--button class="md-close btn-flat btn btn-warning btn_atencion" est="4"></button>
+                        <button class="md-close btn-flat btn btn-success btn_atencion" est="3">Atender</button-->
+                    </div>
+                </div>
+            </div>
+            <div class="md-modal md-effect-1" id="modal_cerrar_atencion">
+                <div class="md-content" style="background-color: #ffffff; color: #555;">
+                    <div class="modal-header">
+                        <div class="modal-title">
+                            <h3>Calificar Atención</h3>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <span style="font-weight:bold;">Califica la atención:</span>
+                        <br>
+                        <div id="stars" class="starrr" style="color: orange;"></div>
+                        <br>
+                        <span style="font-weight:bold;">Clasifique la atención:</span>
+                        <br>
+                        <div class="btn-group" data-toggle="buttons" id="estado_atencion">
+                            <label class="btn btn-default active" est="3">
+                                <input type="radio" autocomplete="off" checked> Motivo 1
+                            </label>
+                            <label class="btn btn-default" est="6">
+                                <input type="radio" autocomplete="off"> Motivo 2
+                            </label>
+                            <label class="btn btn-default" est="4">
+                                <input type="radio" autocomplete="off"> Motivo 3
+                            </label>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="md-close btn btn-flat btn-primary btn_atencion" data-modal="modal_cerrar_atencion">Calificar atención</button>
+                        <!--button class="md-close btn-flat btn btn-danger btn_atencion" est="6">Cancelar</button>
+                        <button class="md-close btn-flat btn btn-warning btn_atencion" est="4"></button>
+                        <button class="md-close btn-flat btn btn-success btn_atencion" est="3">Atender</button-->
+                    </div>
+                </div>
+            </div>
+            <div class="md-overlay"></div>
+
+            <!-- Load site level scripts -->
+
+            <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script> -->
+
+            <script type="text/javascript" src="assets/js/jquery-1.10.2.min.js"></script>
+            <!-- Load jQuery -->
+            <script type="text/javascript" src="assets/js/jqueryui-1.10.3.min.js"></script>
+            <!-- Load jQueryUI -->
+            <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+            <!-- Load Bootstrap -->
+            <script type="text/javascript" src="assets/js/enquire.min.js"></script>
+            <!-- Load Enquire -->
+
+            <script type="text/javascript" src="assets/plugins/velocityjs/velocity.min.js"></script>
+            <!-- Load Velocity for Animated Content -->
+            <script type="text/javascript" src="assets/plugins/velocityjs/velocity.ui.min.js"></script>
+
+            <script type="text/javascript" src="assets/plugins/wijets/wijets.js"></script>
+            <!-- Wijet -->
+
+            <script type="text/javascript" src="assets/plugins/codeprettifier/prettify.js"></script>
+            <!-- Code Prettifier  -->
+            <script type="text/javascript" src="assets/plugins/bootstrap-switch/bootstrap-switch.js"></script>
+            <!-- Swith/Toggle Button -->
+
+            <script type="text/javascript" src="assets/plugins/bootstrap-tabdrop/js/bootstrap-tabdrop.js"></script>
+            <!-- Bootstrap Tabdrop -->
+
+            <script type="text/javascript" src="assets/plugins/iCheck/icheck.min.js"></script>
+            <!-- iCheck -->
+
+            <script type="text/javascript" src="assets/plugins/nanoScroller/js/jquery.nanoscroller.min.js"></script>
+            <!-- nano scroller -->
+            <script type="text/javascript" src="assets/plugins/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+            <!-- Mousewheel support needed for Mapael -->
+
+            <script type="text/javascript" src="assets/plugins/sparklines/jquery.sparklines.min.js"></script>
+            <!-- Sparkline -->
+
+            <script type="text/javascript" src="assets/js/application.js"></script>
+            <script type="text/javascript" src="assets/demo/demo.js"></script>
+            <script type="text/javascript" src="assets/demo/demo-switcher.js"></script>
+
+            <!-- End loading site level scripts -->
+
+            <!-- Load page level scripts-->
+
+            <script type="text/javascript" src="assets/plugins/charts-chartistjs/chartist.min.js"></script>
+            <!-- Chartist -->
+            <script type="text/javascript" src="assets/plugins/charts-chartistjs/chartist-plugin-tooltip.js"></script>
+            <!-- Chartist -->
+
+            <script type="text/javascript" src="assets/plugins/charts-chartjs/Chart.js"></script>
+            <!-- Chart.js -->
+
+            <script type="text/javascript" src="assets/plugins/easypiechart/jquery.easypiechart.js"></script>
+            <!-- EasyPieChart -->
+            <script type="text/javascript" src="assets/js/DataTables-1.10.9/js/jquery.dataTables.js"></script>
+            <script type="text/javascript" src="https://cdn.datatables.net/responsive/1.0.7/js/dataTables.responsive.min.js"></script>
+
+            <!--DataTables-->
+            <script src="assets/notifications/notify.min.js"></script>
+            <script src="assets/notifications/notify-metro.js"></script>
+            <script src="assets/notifications/notifications.js"></script>
+            <!--Notifications-->
+            <script type="text/javascript" src="assets/js/jquery.niftymodals/js/jquery.modalEffects.js"></script>
+            <!--Nifty Modals-->
+            <script type="text/javascript" src="assets\plugins\starr\starr.js"></script>
+            <script type="text/javascript" src="assets/js/dashboard/funciones.js"></script>
+            <!--script type="text/javascript" src="assets/demo/demo-index.js"></script-->
+            <!-- Initialize scripts for this page-->
+            <script type="text/javascript">
+                $(document).on('ready', function() {
+                    $('.static-sidebar-wrapper').load('sidebar.html');
+                    $('#topnav').load('headbar.html');
+                });
+            </script>
+            <script type="text/javascript" src="assets/js/dashboard/index.js"></script>
+            <!-- End loading page level scripts-->
+
+</body>
+
+</html>
